@@ -1,0 +1,33 @@
+.notFound_view {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #121212;
+}
+
+.notfound_image {
+  width: 320px;
+  height: 320px;
+  padding: 4px;
+  margin-top: 30px;
+}
+
+.notFound_heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 800px;
+  line-height: 1.7;
+}
+
+.notFound_description {
+  color: #cbd5e1;
+  font-family: 'Roboto';
+  font-size: 18px;
+  line-height: 1.2;
+  margin-bottom: 30px;
+}

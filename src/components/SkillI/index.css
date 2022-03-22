@@ -1,0 +1,20 @@
+.jobItemDetails_skill {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0px 12px 12px 0px;
+}
+
+.jobItemDetails_skill_icon {
+  width: 60px;
+  height: 60px;
+  padding: 3px;
+  margin-right: 14px;
+}
+
+.jobItemDetails_skill_name {
+  color: #cbd5e1;
+  font-family: 'Roboto';
+  font-size: 18px;
+}

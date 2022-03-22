@@ -1,0 +1,133 @@
+.jobItem_container {
+  width: 100%;
+  background-color: #272727;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  list-style-type: none;
+  margin-bottom: 12px;
+  margin-left: 0;
+}
+
+.JobItem_logo_jobRole_container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.JobItem_company_logo {
+  width: 50px;
+  height: 50px;
+  padding: 4px;
+  margin-right: 8px;
+}
+
+.JobItem_tile_and_ratings {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 8px;
+}
+
+.JobItem_jobRole_tile {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.JobItem_rating_container {
+  width: 140px;
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+.JobItem_star_image {
+  color: #fbbf24;
+  width: 30px;
+  height: 30px;
+  padding: 4px;
+}
+
+.JobItem_rating_number {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 1;
+  margin: 0px 4px;
+}
+
+.JobItem_address_and_package {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.JobItem_address {
+  display: flex;
+  align-items: center;
+  margin-right: 4px;
+  padding: 0;
+}
+
+.JobItem_address_icon {
+  color: #f1f5f9;
+  width: 13px;
+  height: 13px;
+  margin: 0px 6px;
+}
+@media screen and (min-width: 768px) {
+  .JobItem_address_icon {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+.JobItem_address_icon_description {
+  color: #7e858e;
+  font-family: 'Roboto';
+  font-size: 14px;
+  margin: 0px 12px 0px 0px;
+}
+@media screen and (min-width: 768px) {
+  .JobItem_address_icon_description {
+    font-size: 18px;
+    margin-right: 12px;
+  }
+}
+
+.JobItem_package {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 600;
+}
+@media screen and (min-width: 768px) {
+  .JobItem_package {
+    font-size: 18px;
+  }
+}
+
+.JobItem_line {
+  color: #b6c5ff;
+  width: 100%;
+}
+
+.jobItem_description_heading {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.jobItem_description {
+  color: #cbd5e1;
+  font-family: 'Roboto';
+  font-size: 18px;
+}
