@@ -24,6 +24,7 @@ const Home = () => (
           </Link>
         </li>
       </ul>
+      <p className="footer">Vishal</p>
     </div>
   </>
 )
