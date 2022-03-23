@@ -271,7 +271,7 @@ class Jobs extends Component {
           <EmploymentType
             employmentType={eachType}
             onUpdatingEmploymentType={this.onUpdatingEmploymentType}
-            key={eachType.id}
+            key={eachType.employmentTypeId}
           />
         ))}
       </ul>
